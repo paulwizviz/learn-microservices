@@ -1,8 +1,7 @@
 # Overview
 
-My brain dumps of all things related to microservices, their design and implementations.
+This project discuss and demonstrate techniques to build microservices.
 
 ## Disclaimer
 
-* The content of this project are intended for educational purpose only.
-* The content is constantly updated and items may be removed and modified without warning.
+The content in this project is intended for educational purposes and is subject to changes without notice.
