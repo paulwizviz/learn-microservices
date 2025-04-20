@@ -1,5 +1,7 @@
 # Learn Observability: Working Examples and References
 
+Observability is the ability to understand the internal state of a system based on the data it produces — particularly logs, metrics, and traces. It is a key concept for distributed systems where simply monitoring is not enough.
+
 This repository contain references to working examples, educational and opinions related to Observability.
 
 ## Disclaimer
