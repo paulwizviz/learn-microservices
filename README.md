@@ -1,8 +1,19 @@
-# Learn Observability: Working Examples and References
+# Learn Distributed System: Working Examples and References
 
-Observability is the ability to understand the internal state of a system based on the data it produces — particularly logs, metrics, and traces. It is a key concept for distributed systems where simply monitoring is not enough.
+A distributed system is a type of system architectural pattern where processes is distributed across multiple platforms or nodes. 
 
-This repository contain references to working examples, educational and opinions related to Observability.
+This repository contain references to working examples, educational materials and opinions related to distributed systems.
+
+## Topics
+
+* [Architectural Design Patterns](./topics/patterns.md)
+* Communications Pattern
+    * [REST](./topics/rest.md)
+    * [gRPC](./topics/grpc.md)
+    * [MQTT](https://github.com/paulwizviz/learn-mqtt)
+    * [NATS](https://github.com/paulwizviz/learn-nats)
+    * [Kafka](https://github.com/paulwizviz/learn-kafka)
+* [Observability](./topics/observability.md)
 
 ## Disclaimer
 
@@ -14,7 +25,7 @@ This project is ongoing and may undergo changes without prior notification. By u
 
 Unless otherwise specified, this project is copyrighted as follows:
 
-Copyright 2024 The Contributors to learn-observability
+Copyright 2025 The Contributors to learn-distributed-system
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at:
 
