@@ -8,11 +8,11 @@ This repository contain references to working examples, educational materials an
 
 * [Architectural Design Patterns](./topics/patterns.md)
 * Communications Pattern
-    * [REST](./topics/rest.md)
-    * [gRPC](./topics/grpc.md)
-    * [MQTT](https://github.com/paulwizviz/learn-mqtt)
-    * [NATS](https://github.com/paulwizviz/learn-nats)
-    * [Kafka](https://github.com/paulwizviz/learn-kafka)
+  * [REST](./topics/rest.md)
+  * [gRPC](./topics/grpc.md)
+  * [MQTT](https://github.com/paulwizviz/learn-mqtt)
+  * [NATS](https://github.com/paulwizviz/learn-nats)
+  * [Kafka](https://github.com/paulwizviz/learn-kafka)
 * [Observability](./topics/observability.md)
 
 ## Disclaimer
