@@ -1,19 +1,6 @@
-# Learn Distributed System: Working Examples and References
+# Learn Clean Architecture and Domain Driven Design: Working Examples and References
 
-A distributed system is a type of system architectural pattern where processes is distributed across multiple platforms or nodes. 
-
-This repository contain references to working examples, educational materials and opinions related to distributed systems.
-
-## Topics
-
-* [Architectural Design Patterns](./topics/patterns.md)
-* Communications Pattern
-  * [REST](./topics/rest.md)
-  * [gRPC](./topics/grpc.md)
-  * [MQTT](https://github.com/paulwizviz/learn-mqtt)
-  * [NATS](https://github.com/paulwizviz/learn-nats)
-  * [Kafka](https://github.com/paulwizviz/learn-kafka)
-* [Observability](./topics/observability.md)
+This repository contain references to working examples, educational materials and opinions related to Clean Architecture and Domain Driven Design (DDD).
 
 ## Disclaimer
 
