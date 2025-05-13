@@ -2,6 +2,11 @@
 
 This repository contain references to working examples, educational materials and opinions related to Clean Architecture and Domain Driven Design (DDD).
 
+## Topics
+
+* [Clean Architecture](./topics/clean.md)
+* [Domain Driven Design](./topics/domain.md)
+
 ## Disclaimer
 
 This project is for educational purposes only. It is not a production-ready solution and requires significant modifications, rigorous security audits, and extensive testing before use in any production environment.
