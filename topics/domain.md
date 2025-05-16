@@ -60,11 +60,7 @@ These techniques are supportive of the DDD process:
 
 * [Semantic Data Modelling](./semantic.md)
 * [Generic Entity Modelling](./generic.md)
-  * Identifying Common Patterns and Structures: Generic entity modelling aims to identify reusable patterns and structures applicable across different parts of the domain or multiple domains.
-  * Improving Model Flexibility and Extensibility: By identifying generic entity types and relationships, you can create more flexible models adaptable to future changes and evolving business needs without requiring significant rework.
-  * Accelerating Initial Model Creation: Generic models or metamodels can provide a starting point for domain modelling, offering common entity types and specialised relationships for the specific domain.
-  * Enhancing Data Consistency and Integrity: Applying consistent modelling patterns based on generic entity concepts can help ensure better data consistency and integrity across the system.
-  * Supporting the Identification of Technical Services: Generic entity models can sometimes highlight opportunities for creating reusable technical services that operate on similar data structures.
+* [UML Notations](./uml.md)
 
 ## References
 
