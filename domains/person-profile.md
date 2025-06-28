@@ -1,11 +1,12 @@
-# Person Tracking System
+# Person Identity System
 
-In this domain we are modeling a scenario where a person's life history could change over time.
+In this domain we are modeling a peronal identifier system.
 
 ## Scenario
 
-1. A person has a name with these components: firstname, surname, middlename and nicknames.
-1. A person could change names via Deed Poll or marriage.
+1. A person is a human.
+1. A person is identified by a named identifier that comprise of first name and surname.
+1. A person could change names via Deed Poll registered with a trusted institution -- e.g. The Royal Court of Justice.
 1. A person could register his residence in multiple locations.
 
 ## Entity Relationship
