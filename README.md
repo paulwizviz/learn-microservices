@@ -1,17 +1,19 @@
 # Learn Clean Architecture and Domain Driven Design: Working Examples and References
 
-This repository contain references to working examples, educational materials and opinions related to Clean Architecture and Domain Driven Design (DDD).
+This repository is a curated collection of working examples, educational materials, and opinions related to Clean Architecture and Domain-Driven Design (DDD). It represents a synthesis of knowledge and perspectives from our contributors, offering practical insights into topics such as semantic data modelling and the application of UML for domain modelling. Please note that this is not a textbook but rather a living document that reflects the ongoing learning and diverse viewpoints of the community.
 
 ## Topics
 
-* [Clean Architecture](./topics/clean.md)
-* [Domain Driven Design](./topics/domain.md)
+* [Clean Architecture](./topics/clean.md) - Perspectives on clean architecture.
+* [Domain Driven Design](./topics/domain.md) - Materials to apply Domain Driven Design.
+* [Semantic Data Modelling](./topics/semantic.md) - Exploring semantic data modelling techniques.
+* [UML modelling notations](./topics/uml.md) - Techniques to use UML for modelling.
+* Working Examples
+  * [Know Your Customer](./examples/kyc.md) - This illustrates steps involved in the domain modelling of a hypothetical Know-Your-Customer scenario.
 
 ## Disclaimer
 
-This project is for educational purposes only. It is not a production-ready solution and requires significant modifications, rigorous security audits, and extensive testing before use in any production environment.
-
-This project is ongoing and may undergo changes without prior notification. By using this project, you acknowledge that you do so at your own risk. The authors of this project accept no liability for any issues or damages resulting from its use. Please use this project as a learning resource and not as a fully functional or secure application.
+The content of this repository is for educational purposes only. While the examples are inspired by real-world scenarios, they are simplified for clarity and may not be suitable for production use. The opinions and techniques presented here are intended as learning materials, and their applicability to your own projects is not guaranteed.
 
 ## Copyright
 
