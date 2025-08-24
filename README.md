@@ -9,7 +9,7 @@ This repository is a curated collection of working examples, educational materia
 * [Semantic Data Modelling](./topics/semantic.md) - Exploring semantic data modelling techniques.
 * [UML modelling notations](./topics/uml.md) - Techniques to use UML for modelling.
 * Working Examples
-  * [Know Your Customer](./examples/kyc.md) - This illustrates steps involved in the domain modelling of a hypothetical Know-Your-Customer scenario.
+  * [Know Your Customer](./examples/kyc.md) - Domain modelling of a hypothetical Know-Your-Customer scenario.
 
 ## Disclaimer
 
