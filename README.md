@@ -1,19 +1,20 @@
-# A Practical Guide to Extensible Software with DDD, Semantic Modelling, and Clean Architecture
+# Designing and Implementing an Extensible Software: A Recommendation
 
-This repository is a curated collection of working examples, educational materials, and opinions related to Clean Architecture and Domain-Driven Design (DDD). It represents a synthesis of knowledge and perspectives from our contributors, offering practical insights into topics such as semantic data modelling and the application of UML for domain modelling. Please note that this is not a textbook but rather a living document that reflects the ongoing learning and diverse viewpoints of the community.
+## About this Handbook
+
+This handbook presents curated opinions on the application of Domain-Driven Design (DDD), Semantic Data Modelling and Architectural Patterns (e.g. clean architecture, microservices, etc) to build extensible software. This handbook is written for technical practitioners, such as software engineers and architects, who design and build extensible systems. In the age of AI, the principles in this handbook also provide the context needed to effectively guide LLMs in generating robust solutions. It represents a synthesis of knowledge and perspectives from various sources compiled and identified by the handbook's [contributors](./CONTRIBUTORS). Please note that this is not a textbook but rather a living document that reflects the ongoing learning and diverse viewpoints of the community.
+
+To illustrate these techniques in practice, this handbook walks you through a hypothetical scenario. The walk-through is presented in two parts: Part I focuses on using analytical techniques to understand the problem space, and Part II demonstrates how to map that analysis to a well-architected solution, covering everything from naming conventions to deployment patterns.
 
 Please refer to the CONTRIBUTORS file for a list of contributors or the repository's commit history.
 
-## Topics
+## Our Hypothetical Scenario
 
-* [Clean Architecture](./topics/clean.md) - Perspectives on clean architecture.
-* [Domain Driven Design](./topics/domain.md) - Materials to apply Domain Driven Design.
-* [Event Driven Architecture](./topics/eda.md)
-* [Microservices](./topics/microservices.md)
-* [Semantic Data Modelling](./topics/semantic.md) - Exploring semantic data modelling techniques.
-* [UML modelling notations](./topics/uml.md) - Techniques to use UML for modelling.
-* Working Examples
-  * [Know Your Customer](./examples/kyc.md) - Domain modelling of a hypothetical Know-Your-Customer scenario.
+The purpose of this system is to manage identities, company information, and the relationships between individuals and companies. The current process is manual and time-consuming, involving verifying company records, director details, and the relationships between them. Our goal is to automate and streamline this process by designing and building a robust, extensible software solution.
+
+## Part I: What Problem are we Solving?
+
+All software exists to solve a problem. This handbook focuses on large-scale enterprise software—the kind that requires a coordinated team to build and maintain. The first and most critical step in such a project is developing a shared understanding of the problem domain. This part of the handbook will illustrate how to use Domain-Driven Design and Semantic Data Modelling to analyse the problem space and create a ubiquitous language for that shared understanding.
 
 ## Disclaimer
 
@@ -21,4 +22,4 @@ The content of this repository is for educational purposes only. While the examp
 
 ## License
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http.creativecommons.org/licenses/by-sa/4.0/).
