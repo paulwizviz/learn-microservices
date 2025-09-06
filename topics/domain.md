@@ -1,10 +1,12 @@
-# Domain Driven Design
+# Domain Driven Design: Key Concepts
 
-Domain-Driven Design (DDD) is a software development approach that centres on a structure and language of the code that matches that of the business domain. It’s about creating a shared language between domain and technical experts, so the words used by the domain expert are the same as those in the code. The shared language is then used to build a rich model of the domain, describing the objects and the interactions between them. (see [DDD Building Blocks](https://www.youtube.com/watch?v=xFl-QQZJFTA)).
+Domain-Driven Design (DDD) is a software development approach that centres on a structure and language of the code that matches the business domain. It’s about creating a shared language between domain and technical experts, so the words used by the domain expert are the same as those in the code. The shared language is then used to build a rich model of the domain, describing the objects and the interactions between them. (see [DDD Building Blocks](https://www.youtube.com/watch?v=xFl-QQZJFTA)).
 
 ## Core Elements of a Domain Model
 
-The following are core modeling elements to construct a domain model:
+A **model** is a simplified representation of a real-world object, system, or concept. Its purpose is to help us understand, analyze, or predict the behavior of something that is too complex, large, or abstract to be studied directly.
+
+A toy like LEGO is compose is multiple components: bricks, plates, tiles, etc. The components could be assembled to resemble a real world thing like a house. Each component could represent a component of a real world house. Likewise with DDD, there are a number of components that could be use to model a business domain, and these are:
 
 * [Aggregates](#aggregates)
 * [Bounded Context](#bounded-context)
@@ -97,8 +99,7 @@ Core concepts of Tactical Design:
 
 * **Entities:** Objects with a unique identity (e.g. a Customer with a `customer_id`).  
 * **Value Objects:** Immutable objects defined only by attributes (e.g. a Money object with amount and currency).  
-* **Aggregates:** Groups of related entities and value objects treated as a single unit for consistency. Each aggregate has an **Aggregate Root** (e.g. an Order aggregate with LineItem value objects).  
-* **Repositories:** Abstractions for storing and retrieving aggregates. They hide persistence details and always operate at the aggregate level.  
+* **Aggregates:** Groups of related entities and value objects treated as a single unit for consistency. Each aggregate has an **Aggregate Root** (e.g. an Order aggregate with LineItem value objects).  -* **Repositories:** Abstractions for storing and retrieving aggregates. They hide persistence details and always operate at the aggregate level.  
 * **Domain Events:** Represent significant occurrences within the domain (e.g. `OrderShipped`). Events are named in the past tense and often trigger reactions in other contexts.  
 
 Think of Tactical Design as a **blueprint for a single building**: detailed enough for construction crews to execute, precise enough to enforce structure.
@@ -112,49 +113,49 @@ Think of Tactical Design as a **blueprint for a single building**: detailed enou
 
 To identify the core domain artefacts, follow these steps:  
 
-* **STEP 1: Understand Business Goals and Engage Experts**  
-  * Clarify why the business exists and what value it delivers.  
-  * Focus on activities that directly create this value.  
-  * Collaborate with domain experts – analysts, subject-matter experts, or experienced users – to uncover critical processes and challenges.  
+**STEP 1: Understand Business Goals and Engage Experts**  
 
-* **STEP 2: Analyse Existing Sources**  
-  * Review documents, workflows, system specifications, and legacy systems.  
-  * Look for recurring nouns (potential entities and value objects) and verbs (potential domain services).  
-  * Be critical – existing systems may not reflect the ideal domain.  
+* Clarify why the business exists and what value it delivers.  
+* Focus on activities that directly create this value.  
+* Collaborate with domain experts – analysts, subject-matter experts, or experienced users – to uncover critical processes and challenges.  
 
-* **STEP 3: Define Key Concepts and Language**  
-  * Capture the important terms and ensure they are used consistently.  
-  * Establish a ubiquitous language across the team.  
+**STEP 2: Analyse Existing Sources**
 
-* **STEP 4: Model Core Processes**  
-  * Focus on processes central to the business’s value proposition.  
-  * Use flowcharts or activity diagrams to map interactions between entities.  
+* Review documents, workflows, system specifications, and legacy systems.  
+* Look for recurring nouns (potential entities and value objects) and verbs (potential domain services).  
+* Be critical – existing systems may not reflect the ideal domain.  
 
-* **STEP 5: Distinguish Entities, Value Objects, and Services**  
-  * **Entities:** Unique identity and lifecycle (e.g. Customer, Order, Product).  
-  * **Value Objects:** Immutable, defined by attributes (e.g. Address, Colour, Money).  
-  * **Domain Services:** Operations that don’t naturally belong to entities or value objects (e.g. `OrderPlacementService`, `ShippingCalculatorService`).  
+**STEP 3: Define Key Concepts and Language**  
 
-* **STEP 6: Define Aggregates and Roots**  
-  * Group related entities and value objects into aggregates.  
-  * Select one entity as the Aggregate Root to enforce consistency.  
+* Capture the important terms and ensure they are used consistently.  
+* Establish a ubiquitous language across the team.  
 
-* **STEP 7: Establish Bounded Contexts (if needed)**  
-  * For larger domains, set boundaries where a model and its language stay consistent.  
-  * Recognise that the same concept may differ across contexts.  
+**STEP 4: Model Core Processes**  
+  
+* Focus on processes central to the business’s value proposition.  
+* Use flowcharts or activity diagrams to map interactions between entities.  
 
-* **STEP 8: Iterate and Refine**  
-  * Domain modelling is iterative.  
-  * Regularly refine your model based on feedback and deeper understanding.  
-  * Use simple diagrams or UML class models to validate understanding.
+**STEP 5: Distinguish Entities, Value Objects, and Services**  
 
-## Supporting Techniques
+* **Entities:** Unique identity and lifecycle (e.g. Customer, Order, Product).  
+* **Value Objects:** Immutable, defined by attributes (e.g. Address, Colour, Money).  
+* **Domain Services:** Operations that don’t naturally belong to entities or value objects (e.g. `OrderPlacementService`, `ShippingCalculatorService`).  
 
-These techniques are supportive of the DDD process:
+**STEP 6: Define Aggregates and Roots**  
 
-* [Semantic Data Modelling](./semantic.md)
-* [Generic Entity Modelling](./generic.md)
-* [UML Notations](./uml.md)
+* Group related entities and value objects into aggregates.  
+* Select one entity as the Aggregate Root to enforce consistency.  
+
+**STEP 7: Establish Bounded Contexts (if needed)**  
+
+* For larger domains, set boundaries where a model and its language stay consistent.  
+* Recognise that the same concept may differ across contexts.  
+
+**STEP 8: Iterate and Refine**  
+
+* Domain modelling is iterative.  
+* Regularly refine your model based on feedback and deeper understanding.  
+* Use simple diagrams or UML class models to validate understanding.
 
 ## References
 
