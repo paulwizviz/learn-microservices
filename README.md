@@ -17,15 +17,11 @@ Although the journey is depicted as a clear path in Figure 1, real-world applica
 
 These techniques are suited for systems of any scale, but you will find them most useful for large-scale enterprise systems.
 
-Do not think of this as a textbook, but as a living document that will evolve with the ongoing learning and diverse viewpoints of the community.
-
-In the age of AI, you can use the techniques in this handbook as a form of system prompt to guide AI agents in generating robust solutions.
+This is not a textbook, but as a living document that will evolve with the ongoing learning and diverse viewpoints of the community.
 
 ## Our Hypothetical Scenario
 
 For your journey, imagine you are part of a fictional company, **Datum**. Its mission is to build a centralised system that allows other businesses, like banks or regulated firms, to outsource their complex and critical Know Your Customer (KYC) processes.
-
-As a non-domain expert, you might ask: What exactly is KYC?
 
 At its core, KYC is the essential due diligence process of verifying a client's identity and assessing the potential risks of doing business with them. The primary objective is to prevent a company, like Datum's clients, from being used for illegal activities, such as money laundering or terrorism financing, making it a cornerstone of modern regulatory compliance.
 
@@ -34,8 +30,6 @@ The KYC process is typically built on three core activities:
 * **Customer Identification Program (CIP):** The initial step of verifying that customers are who they claim to be.
 * **Customer Due Diligence (CDD):** Assessing a customer's risk profile and understanding the purpose of the business relationship.
 * **Ongoing Monitoring:** Continuously scrutinizing customer activity to detect suspicious behavior and changes in risk.
-
-For further detail on these concepts, you can consult the companion guide, ["The Strategic Imperative of Know Your Customer (KYC): A Definitive Guide to Compliance, Technology, and Risk Management"](./topics/kyc.md).
 
 KYC is typically conducted by regulated institutions themselves, but in this hypothetical scenario, you will imagine Datum as an outsourcing entity. Third-party institutions will use Datum to verify that their own customers have undergone the necessary KYC, without having to hold customer data themselves. You should bear this scenario in mind, as it influences the outcome of the DDD and SDM analysis; an in-house solution would have a different context.
 
@@ -193,7 +187,9 @@ In this phase, your task is to model the use cases that define how customers (e.
 
 ## Deployment Architecture
 
-Here, your task is to design the deployment architecture. You can find inspiration in the [Deployment Architectural Patterns](./topics/arch.md) guide. Assume you have chosen an Event-Driven Architecture (EDA). The DDD event objects you discovered in Part I can inform your event message structure and how you organise events into topics.
+Here, your task is to design the deployment architecture. You can find inspiration in the [Deployment Architectural Patterns](./topics/arch.md) guide. 
+
+Let's assume you have chosen an Event-Driven Architecture (EDA). The DDD event objects you discovered in Part I can inform your event message structure and how you organise events into topics.
 
 <figure>
   <img src="./assets/img/architecture.png" alt="Deployment Architecture">
