@@ -103,7 +103,7 @@ Once the corporate account is active, a similar process of ongoing monitoring ap
 
 With the problem statement defined, you will now bridge the understanding between business and technical experts through Domain-Driven Design (DDD). In this stage, you will establish a **shared language** that will directly inform the names you use in your code, ensuring the solution aligns with business goals.
 
-Your DDD analysis will unfold in two parts: **Strategic Design** to map the overall business domain, and **Tactical Design** to define the specific building blocks of your system. You can refer to the [Domain-Driven Design: Key Concepts](./topics/domain.md) guide for more details.
+Your DDD analysis will unfold in two parts: **Strategic Design** to map the overall business domain, and **Tactical Design** to define the specific building blocks of your system. You can refer to the [Domain-Driven Design: Key Concepts](./concepts/domain.md) guide for more details.
 
 ### Strategic Design: Defining the Big Picture
 
@@ -153,7 +153,7 @@ Here are the artifacts you have identified for each context:
 
 ## Semantic Data Modelling
 
-With your DDD components defined, your next step is to build a more precise map of the domain using **Semantic Data Modelling (SDM)**. Your task is to establish models that reflect business relationships, distinguishing between core and association entities. For more details, refer to the [Semantic Data Modelling: Core Concepts](./topics/semantic.md) guide.
+With your DDD components defined, your next step is to build a more precise map of the domain using **Semantic Data Modelling (SDM)**. Your task is to establish models that reflect business relationships, distinguishing between core and association entities. For more details, refer to the [Semantic Data Modelling: Core Concepts](./concepts/semantic.md) guide.
 
 ### Identifying Core Entities and Relationships
 
@@ -187,7 +187,7 @@ In this phase, your task is to model the use cases that define how customers (e.
 
 ## Deployment Architecture
 
-Here, your task is to design the deployment architecture. You can find inspiration in the [Deployment Architectural Patterns](./topics/arch.md) guide. 
+Here, your task is to design the deployment architecture. You can find inspiration in the [Deployment Architectural Patterns](./concepts/arch.md) guide.
 
 Let's assume you have chosen an Event-Driven Architecture (EDA). The DDD event objects you discovered in Part I can inform your event message structure and how you organise events into topics.
 
@@ -202,7 +202,7 @@ In this final stage, your task is to translate the conceptual models from your p
 
 You should be aware of a potential challenge: the idiomatic conventions and organisational philosophies of a programming language can sometimes conflict with the structure of the ubiquitous language. For example, a language may favour certain naming conventions that differ from the terms used by domain experts.
 
-For guidance, you can refer to the well-known patterns described in our [Source Code Architecture](./topics/code.md) segment. However, remember that the core goal is to align with the ubiquitous language, so you may need to adjust these patterns accordingly.
+For guidance, you can refer to the well-known patterns described in our [Source Code Architecture](./concepts/code.md) segment. However, remember that the core goal is to align with the ubiquitous language, so you may need to adjust these patterns accordingly.
 
 Given that it is impossible to establish a single, unified pattern for all languages, this handbook cannot provide universal guidance. Instead, to illustrate the concepts, you will see examples in **SQL** and **Go**.
 
