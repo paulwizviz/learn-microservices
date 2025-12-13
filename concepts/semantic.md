@@ -89,8 +89,6 @@ Now we formalise the relationships:
 
 Unified Modelling Language (UML) is a modelling language capable of supporting structural modelling (i.e. classes, class and association) and a host of others.
 
-![img class notation](../assets/img/uml-class.png)
-
 An element of UML is an `association class`. For example, the `authorship` role could be modelled as an `association class` between `Person` and `Book`, and it could have properties like `publicationDate` or `royaltyPercentage`.
 
 ### Step 5: Iteration and Refinement
@@ -103,4 +101,4 @@ By following these steps, we've moved from a simple, surface-level model to a mo
 | --- | --- |
 | Entity | Entity |
 | Aggregate | Association Entity (Class) |
-| Value Objects | Properties  |
+| Value Objects | Properties |
